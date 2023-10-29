@@ -326,3 +326,7 @@ uniresolver:
       url: http://driver-did-webs:7677/
       testIdentifiers:
         - did:webs:peacekeeper.github.io:did-webs-iiw37-tutorial:EKYGGh-FtAphGmSZbsuBs_t4qpsjYJ2ZqvMKluq9OxmP
+    - pattern: "^(did:health:.+)$"
+      url: http://driver-did-health:8080/
+      testIdentifiers:
+        - did:health:000005saasas1234
