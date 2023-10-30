@@ -280,4 +280,8 @@ services:
     image: gleif/did-webs-resolver-service:latest
     ports:
       - "8147:7677"
+  driver-did-health:
+    image: didhealth/uni-resolver-driver-did-health:latest
+    ports:
+      - "8148:8080"
 
