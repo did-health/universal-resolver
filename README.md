@@ -91,6 +91,7 @@ You should then be able to resolve identifiers locally using simple `curl` reque
 	curl -X GET http://localhost:8080/1.0/identifiers/did:evrc:issuer:ethereum:246d9b34-09e1-496e-ad5b-fb5ea889d96b
 	curl -X GET http://localhost:8080/1.0/identifiers/did:keri:EKYGGh-FtAphGmSZbsuBs_t4qpsjYJ2ZqvMKluq9OxmP
 	curl -X GET http://localhost:8080/1.0/identifiers/did:webs:peacekeeper.github.io:did-webs-iiw-tutorial:EKYGGh-FtAphGmSZbsuBs_t4qpsjYJ2ZqvMKluq9OxmP
+ 	curl -X GET http://localhost:8080/1.0/identifiers/did:health:000005saasas1234
 
 You can also use an "Accept" header to request the DID document in a specific representation, e.g.:
 
